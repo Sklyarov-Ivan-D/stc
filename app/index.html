@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STC</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../app/css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="./images/logo-1.svg" alt="XXX">
+                </div>
+                <div class="header__nav">
+                    <ul>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Кейсы</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header__btn">
+                    <button><a href="#">Заказать звонок</a></button>
+                </div>
+            </div>
+        </div>
+        <section class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__content-left">
+                        <div class="header__content-title">
+                            <h1>
+                                STC cosulting – ваш надежный
+                                проводник в мире финансов
+                            </h1>
+                        </div>
+                        <div class="header__content-text">
+                            Начните зарабатывать реальные деньги
+                            на финансовых рынках без многолетнего
+                            опыта и больших инвестиций
+                        </div>
+                        <div class="header__content-btn">
+                            <button><a href="#">
+                                    Начать зарабатывать
+                                </a></button>
+                        </div>
+                    </div>
+                    <div class="header__content-right">
+                        <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
+                            <p class="contact-form__title">Заявка на консультацию</p>
+                            <div class="contact-form__description">
+                                Оставьте свои данные и наши финансовые советники
+                                ответят на любые вопросы, в удобное для вас время</div>
+                            <div class="contact-form__input-wrapper">
+                                <input name="name" type="text" class="contact-form__input contact-form__input_name"
+                                    placeholder="Имя">
+                                <div class="contact-form__error contact-form__error_name"></div>
+                            </div>
+                            <div class="contact-form__input-wrapper">
+                                <input name="tel" type="tel" class="contact-form__input contact-form__input_tel"
+                                    placeholder="Телефон">
+                                <div class="contact-form__error contact-form__error_tel"></div>
+                            </div>
+                            <button class="contact-form__button" type="submit"> Получить консультацию </button>
+                            <p class="button-form__description"><a href="#">Нажимая кнопку "Получить консультацию", вы
+                                    даете Согласие на обработку персональных данных на условиях и для целей определяемых
+                                    Политикой конфиденциальности</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="services">
+        <div class="container">
+            <div class="services__inner">
+                <div class="services__title">
+                    <h2>Что мы предоставляем</h2>
+                </div>
+                <div class="services__case">
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/Group1.svg" alt="XXX">
+                        </div>
+                        <div class="card__text">
+                            <span>Обучение</span>
+                            интернет трейдингу
+                        </div>
+                    </div>
+
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/icon2.svg" alt="XXX">
+                        </div>
+                        <div class="card__text">
+                            <span>Подбор</span>
+                            надежного брокера
+                        </div>
+                    </div>
+
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/icon3.svg" alt="XXX">
+                        </div>
+                        <div class="card__text card__text-three">
+                            <span>Доверительное</span>
+                            управление активами
+                        </div>
+                    </div>
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/icon4.svg" alt="XXX">
+                        </div>
+                        <div class="card__text card__text-three">
+                            <span> Индивидуальные</span>
+                            торговые стратегии
+                        </div>
+                    </div>
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/icon5.svg" alt="XXX">
+                        </div>
+                        <div class="card__text card__text-fife">
+                            <span>Аналитика</span>
+                            из европейских источников
+                        </div>
+                    </div>
+                    <div class="case__card-content">
+                        <div class="card__img">
+                            <img src="./images/card/Group.svg" alt="XXX">
+                        </div>
+                        <div class="card__text card__text-six">
+                            <span>Сопровождения</span>
+                            торговых сделок специалистами
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media__slider">
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/Group1.svg" alt="XXX">
+                            </div>
+                            <div class="card__text">
+                                <span>Обучение</span>
+                                интернет трейдингу
+                            </div>
+                        </div>
+    
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/icon2.svg" alt="XXX">
+                            </div>
+                            <div class="card__text">
+                                <span>Подбор</span>
+                                надежного брокера
+                            </div>
+                        </div>
+    
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/icon3.svg" alt="XXX">
+                            </div>
+                            <div class="card__text card__text-three">
+                                <span>Доверительное</span>
+                                управление активами
+                            </div>
+                        </div>
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/icon4.svg" alt="XXX">
+                            </div>
+                            <div class="card__text card__text-three">
+                                <span> Индивидуальные</span>
+                                торговые стратегии
+                            </div>
+                        </div>
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/icon5.svg" alt="XXX">
+                            </div>
+                            <div class="card__text card__text-fife">
+                                <span>Аналитика</span>
+                                из европейских источников
+                            </div>
+                        </div>
+                        <div class="case__card-media">
+                            <div class="card__img">
+                                <img src="./images/card/Group.svg" alt="XXX">
+                            </div>
+                            <div class="card__text card__text-six">
+                                <span>Сопровождения</span>
+                                торговых сделок специалистами
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        </div>
+    </section>
+    <section class="tools">
+        <div class="container">
+            <div class="tools__inner">
+                <div class="tools__title">
+                    <h3>Наши инструменты</h3>
+                    <div class="tools__title-discription">
+                        Мы специализируемся на следующих биржевых инструментах:
+                    </div>
+                </div>
+                <div class="tools__card-wrap ">
+                    <div class="tools__card tools__card-akce">
+                        <div class="tools__card-left ">
+                            <img src="./images/toolsImg/Group.svg" alt="XXX">
+                        </div>
+                        <div class="tools__card-right">
+                            <div class="tools__card-text">
+                                <span>Акции</span>
+                                Покупка акций предусматривает два варианта
+                                заработка: либо вы зарабатываете на дивидендных
+                                выплатах, либо вы извлекаете прибыль с помощью
+                                купли-продажи. Вы можете сделать выбор в пользу
+                                как дивидендов, так и активной торговли,
+                                в зависимости от вашей готовности зарабатывать.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tools__card ">
+                        <div class="tools__card-left">
+                            <img src="./images/toolsImg/Group3.svg" alt="XXX">
+                        </div>
+                        <div class="tools__card-right">
+                            <div class="tools__card-text tools__card-gold">
+                                <span>Золото</span>
+                                Большинство инвесторов используют золото, в первую
+                                очередь, как средство сохранения капитала в кризис.
+                                Благодаря таким факторам, как инфляция, финансовая
+                                нестабильность и геополитическая ситуация - золото
+                                обладает высокой волатильностью и позволяет
+                                приумножать и сохранять ваши средства.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tools__card tools__card-akce">
+                        <div class="tools__card-left">
+                            <img src="./images/toolsImg/Group2.svg" alt="XXX">
+                        </div>
+                        <div class="tools__card-right">
+                            <div class="tools__card-text">
+                                <span>Криптовалюта</span>
+                                Электронная валюта, которая взбудоражила весь
+                                мир за последние 3 года. Сейчас не требуется быть
+                                программистом, чтобы купить криптовалюты,
+                                достаточно выбрать брокера, ведь через брокера
+                                вы можете заработать не только на росте
+                                криптовалюты, но и на ее падении.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tools__card">
+                        <div class="tools__card-left">
+                            <img src="./images/toolsImg/Group4.svg" alt="XXX">
+                        </div>
+                        <div class="tools__card-right">
+                            <div class="tools__card-text tools__card-forex">
+                                <span>Forex</span>
+                                Работайте с валютами развивающихся стран
+                                и кросс-курсами и зарабатывайте на мировых кризисах,
+                                экономических и геополитических событиях 24 часа
+                                в сутки. Валюты - это совершенный инструмент для
+                                извлечения прибыли как в течении одного дня, так
+                                и в долгосрочной перспективе.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__first">
+        <div class="container">
+            <div class="slider__first-inner">
+                <div class="slider__first-title">
+                    <h4>Наши результаты</h4>
+                    <div class="slider__title-discription">
+                        У нас одна цель - высокие доходы наших клиентов
+                    </div>
+                </div>
+                <div class="single__slider">
+                    <div class="single__slider-content">
+                        <div class="slider__content-left">
+                            <div class="content__left-title">
+                                Рост индекса Dow Jones
+                            </div>
+                            <div class="content__left-text">
+                                В сентябре 2017 года, аналитик Касимцев
+                                Борис давал ряд прогнозов в прямом
+                                эфире телеканала РБК. Одним из них
+                                был прогноз на рост американского
+                                индекса Dow Jones. Рекомендация
+                                полностью отработалась, цена индекса
+                                росла на протяжении всего IV квартала
+                                2017 года, что дало нашим клиентам
+                                возможность заработать более
+                                27% прибыли.
+                            </div>
+                            <div class="result"><a href="#">
+                                    Смотреть результат
+                                </a></div>
+                            <div class="numbering">
+                                <span>1</span>/3
+                            </div>
+                        </div>
+                        <div class="slider__content-right">
+                            <img src="./images/firstslider/one.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="single__slider-content">
+                        <div class="slider__content-left">
+                            <div class="content__left-title">
+                                Рост индекса Dow Jones
+                            </div>
+                            <div class="content__left-text">
+                                В сентябре 2017 года, аналитик Касимцев
+                                Борис давал ряд прогнозов в прямом
+                                эфире телеканала РБК. Одним из них
+                                был прогноз на рост американского
+                                индекса Dow Jones. Рекомендация
+                                полностью отработалась, цена индекса
+                                росла на протяжении всего IV квартала
+                                2017 года, что дало нашим клиентам
+                                возможность заработать более
+                                27% прибыли.
+                            </div>
+                            <div class="result"><a href="#">
+                                    Смотреть результат
+                                </a></div>
+                            <div class="numbering">
+                                <span>2</span>/3
+                            </div>
+                        </div>
+                        <div class="slider__content-right">
+                            <img src="./images/firstslider/one.svg" alt="XXX">
+                        </div>
+                    </div>
+                    <div class="single__slider-content">
+                        <div class="slider__content-left">
+                            <div class="content__left-title">
+                                Рост индекса Dow Jones
+                            </div>
+                            <div class="content__left-text">
+                                В сентябре 2017 года, аналитик Касимцев
+                                Борис давал ряд прогнозов в прямом
+                                эфире телеканала РБК. Одним из них
+                                был прогноз на рост американского
+                                индекса Dow Jones. Рекомендация
+                                полностью отработалась, цена индекса
+                                росла на протяжении всего IV квартала
+                                2017 года, что дало нашим клиентам
+                                возможность заработать более
+                                27% прибыли.
+                            </div>
+                            <div class="result"><a href="#">
+                                    Смотреть результат
+                                </a></div>
+                            <div class="numbering">
+                                <span>3</span>/3
+                            </div>
+                        </div>
+                        <div class="slider__content-right">
+                            <img src="./images/firstslider/one.svg" alt="XXX">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expertise">
+        <div class="container">
+            <div class="expertise__inner">
+                <div class="expertise__left">
+                    <div class="expertise__title">
+                        <h5>Признанная экспертность</h5>
+                        <div class="expertise__discription">
+                            Мы не боимся публичности. С нами работают
+                            известные аналитики которые являются
+                            частыми гостями на телеканале РБК
+                            и крупных финансовых порталах.
+                        </div>
+                    </div>
+                    <div class="expertise__reviews">
+                        <img src="./images/reviewsimg/reviewsimg.svg" alt="XXX">
+                    </div>
+                </div>
+                <div class="expertise__right">
+                    <div class="expertise__right-btn">
+                        <a href="#">
+                            <img class="video__btn" src="./images/reviewsimg/btn.svg" alt="XXX">
+                        </a>
+                        <div class="video__btn-discription">
+                            Смотреть интервью
+                            <span>с Борисом на канале РБК</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+                <div class="advantages__wrap">
+                    <div class="advantages__wrap-right">
+                        <div class="right__title">
+                            Почему именно мы?
+                        </div>
+                        <div class="right__title-discription">
+                            <img src="./images/fw5.svg" alt="XXX">
+                            <span>
+                                причин которые
+                                <p>делают наш</p>
+                                проект уникальным
+                            </span>
+                        </div>
+                    </div>
+                    <div class="advantages__wrap-left">
+                        <div class="first__column">
+                            <div class="wrap__card wrap__card-one">
+                                <div class="card__title">
+                                    Профессиональная команда
+                                </div>
+                                <div class="wrap-card__text">
+                                    Наши специалисты обладая большим
+                                    практическим опытом на финансовом
+                                    рынке, умеют не только много
+                                    зарабатывать но и грамотно
+                                    обучают этому.
+                                </div>
+                            </div>
+                            <div class="wrap__card wrap__card-two">
+                                <div class="card__title">
+                                    Доступность
+                                </div>
+                                <div class="wrap-card__text">
+                                    Двери наших офисов в Самаре,
+                                    Уфе и Тольяти всегда открыты
+                                    для наших клиентов. Также вы
+                                    можете легко найти наших
+                                    менеджеров в соц.сетях
+                                    и проконсультироваться.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second__column">
+                        <div class="wrap__card wrap__card-three">
+                            <div class="card__title">
+                                Уникальные торговые
+                                стратегии
+                            </div>
+                            <div class="wrap-card__text">
+                                Многолетний опыт торговли
+                                в сочетание с техническим
+                                и фундаментальным анализом
+                                позволили нам разработать
+                                индивидуальные
+                                высокодоходные стратегии.
+                            </div>
+                        </div>
+                        <div class="wrap__card wrap__card-four">
+                            <div class="card__title">
+                                Передовая аналитика
+                            </div>
+                            <div class="wrap-card__text">
+                                Аналитика из авторитетных
+                                источников Лондона и Гонконга
+                                доступна для наших клиентов
+                                в любое время.
+                            </div>
+                        </div>
+                        <div class="wrap__card wrap__card-five">
+                            <div class="card__title">
+                                Качественные знания
+                            </div>
+                            <div class="wrap-card__text">
+                                Мы проводим бесплатные вебинары
+                                и консультации от профессиональных
+                                аналитиков для всех желающих,
+                                где вы можете убедиться в нашей
+                                компетенции.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__form">
+                <div class="form__top">
+                    <div class="form__top-right">
+                        <div class="form__title">
+                            <p>Получить бесплатную консультацию</p>
+                            от компетентного специалиста компании STC
+                        </div>
+                        <div class="form__title-discription">
+                            Узнай как получать стабильный доход от финансовых инвестиций! Зарегистрируйся прямо сейчас и
+                            получи
+                            <span>бесплатную консультацию!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__bottom">
+                    <div class="content__form">
+                        <input class="input__form" type="text" placeholder="Имя">
+                        <input class="input__form" type="email" placeholder="Телефон">
+                        <input class="input__btn" type="submit" value="Получить консультацию">
+                        <div class="content__form-text">
+                            Нажимая кнопку "Получить консультацию",
+                            вы даете Согласие на обработку персональных данных на условиях
+                            и для целей определяемых <a href="#">Политикой конфиденциальности</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="two__slider">
+        <div class="container">
+            <div class="two__slider-inner">
+                <div class="two__slider-title">
+                    Наша команда
+                </div>
+                <div class="two__slider-wrap">
+                    <div class="two__card">
+                        <div class="two__card-top">
+                            <img src="./images/twoSlider/img1.svg" alt="XXX">
+                        </div>
+                        <div class="two__card-bottom">
+                            <div class="two__card-name">
+                                Main advisor
+                            </div>
+                            <div class="two__card-discription">
+                                Небольшое описание на две-три
+                                строки, небольшое описание
+                                на две-три строки,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img2.svg" alt="XXX">
+                        <div class="two__card-name">
+                            TOP Manager
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img3.svg" alt="XXX">
+                        <div class="two__card-name">
+                            Advize
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img4.svg" alt="XXX">
+                        <div class="two__card-name">
+                            TOP Mannager
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <div class="two__card-top">
+                            <img src="./images/twoSlider/img1.svg" alt="XXX">
+                        </div>
+                        <div class="two__card-bottom">
+                            <div class="two__card-name">
+                                Main advisor
+                            </div>
+                            <div class="two__card-discription">
+                                Небольшое описание на две-три
+                                строки, небольшое описание
+                                на две-три строки,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img2.svg" alt="XXX">
+                        <div class="two__card-name">
+                            TOP Manager
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img3.svg" alt="XXX">
+                        <div class="two__card-name">
+                            Advize
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                    <div class="two__card">
+                        <img src="./images/twoSlider/img4.svg" alt="XXX">
+                        <div class="two__card-name">
+                            TOP Mannager
+                        </div>
+                        <div class="two__card-discription">
+                            Небольшое описание на две-три
+                            строки, небольшое описание
+                            на две-три строки,
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="photo">
+        <div class="photo__gallery-wrap">
+            <p class="photo__gallery"></p>
+            <img src="./images/album/1.svg" alt="XXX" class="scale">
+            <img src="./images/album/10.svg" alt="XXX" class="scale">
+            <img src="./images/album/3.svg" alt="XXX" class="scale">
+            <img src="./images/album/5.svg" alt="XXX" class="scale">
+            <img src="./images/album/6.svg" alt="XXX" class="scale">
+            <img src="./images/album/7.svg" alt="XXX" class="scale">
+            <img src="./images/album/8.svg" alt="XXX" class="scale">
+            <img src="./images/album/9.svg" alt="XXX" class="scale">
+            <img src="./images/album/10.svg" alt="XXX" class="scale">
+            </p>
+        </div>
+    </section>
+
+    <section class="offices">
+        <div class="container">
+            <div class="offices__inner">
+                <div class="offices__title">Офисы STC</div>
+                <div class="offices__card">
+                    <div class="offices__card-inner">
+                        <div class="card__wrap">
+                            <div class="card__img">
+                                <img src="./images/offices/office1.svg" alt="">
+                            </div>
+                            <div class="card__title">
+                                Тольятти
+                            </div>
+                            <div class="card__title-discription">
+                                ул. Юбилейная 40, бизнес-центр
+                                «Вега», 16 этаж, офис 1615.
+                            </div>
+                            <div class="card__nuber">
+                                + 8 800 55 06 216
+                            </div>
+                            <div class="card__btn">
+                                <button>
+                                    <a href="#">
+                                        Связаться с офисом
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__wrap">
+                            <div class="card__img">
+                                <img src="./images/offices/Photo2.svg" alt="">
+                            </div>
+                            <div class="card__title ">
+                                Самара
+                            </div>
+                            <div class="card__title-discription">
+                                Московское шоссе, 4а ст 2,
+                                бизнес-центр «Скала Холл»,
+                                19 этаж, офис 195, 191, 77.
+                            </div>
+                            <div class="card__nuber nuber__samara">
+                                + 8 800 55 06 216
+                            </div>
+                            <div class="card__btn ">
+                                <button class="card__btn-green">
+                                    <a href="#">
+                                        Связаться с офисом
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__wrap">
+                            <div class="card__img">
+                                <img src="./images/offices/office3.svg" alt="">
+                            </div>
+                            <div class="card__title">
+                                Уфа
+                            </div>
+                            <div class="card__title-discription ufa__discription">
+                                ул. Менделеева 128/3, бизнес-центр
+                                «Треугольник», 5 этаж, офис 9, ст 2.
+                            </div>
+                            <div class="card__nuber ufa__nuber">
+                                + 8 800 55 06 216
+                            </div>
+                            <div class="card__btn">
+                                <button>
+                                    <a href="#">
+                                        Связаться с офисом
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="form__map">
+            <img src="./images/offices/map1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="form__inner form__wrap">
+                <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
+                    <p class="contact-form__title">Остались вопросы?</p>
+                    <p class="contact-form__description">Оставьте свои данные и наши финансовые советники ответят на любые вопросы, в удобное для вас время</p>
+                    <div class="form__inner">
+                    <div class="form__input">
+                        <input name="name" type="text" class="contact-form__input contact-form__input_name"
+                            placeholder="Имя">
+                        <div class="contact-form__error contact-form__error_name"></div>
+                    </div>
+                    <div class="contact-form__input-wrapper">
+                        <input name="tel" type="tel" class="contact-form__input contact-form__input_tel"
+                            placeholder="Телефон">
+                        <div class="contact-form__error contact-form__error_tel"></div>
+                    </div>
+                    <button class="contact__button" type="submit"> Получить консультацию </button>
+                    </div>
+                        <p class="button-bottom__description"><a href="#">Нажимая кнопку "Получить консультацию", вы
+                                    даете Согласие на обработку персональных данных на условиях и для целей определяемых
+                                    Политикой конфиденциальности</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__content">
+    <div class="footer__logo">
+    <img src="./images/footer/logo.svg" alt="">
+    </div>
+    <div class="footer__nav">
+    <ul>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Кейсы</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Команда</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+    </div> 
+    <div class="footer__media">
+    <div class="footer__media-vk footer__media-color"><a href="#">
+        <img src="./images/footer/vk.svg" alt="">
+    </a>
+        
+    </div>    
+    <div class="footer__media-insta footer__media-color"><a href="#">
+        <img src="./images/footer/instagram.svg" alt="">
+    </a>
+    </div>
+    <div class="footer__media-facebook footer__media-color"><a href="#">
+        <img src="./images/footer/facebook.svg" alt="">
+    </a>    
+    </div>
+    </div>
+    <div class="footer__suport">
+        <p>support@paytomat.com</p>
+        + 8 800 55 06 216
+    </div>
+        </div>
+    </div>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
